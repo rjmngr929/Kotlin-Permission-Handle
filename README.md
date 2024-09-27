@@ -8,7 +8,7 @@ Usage
 ------
 
 
-For further samples, check the [sample](https://github.com/rjmngr929/Kotlin-Permission-Handle/tree/master/app) provided by this library. It shows how to integrate this library and request the permissions from an Activity or a Fragment.
+For further samples, check the [app](https://github.com/rjmngr929/Kotlin-Permission-Handle/tree/master/app) provided by this library. It shows how to integrate this library and request the permissions from an Activity or a Fragment.
 
 ### Basic usage
 You can create a ```PermissionRequest``` either from an ```Activity``` or a ```Fragment``` using the extension method ```permissionsBuilder()```:

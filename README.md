@@ -63,7 +63,7 @@ Compatibility
 
 Integration
 ------
-	dependencyResolutionManagement {
+dependencyResolutionManagement {
 		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
 		repositories {
 			mavenCentral()
@@ -74,6 +74,6 @@ Integration
 
 ```gradle
 dependencies {
-		implementation 'com.github.User:Repo:Tag'
+	        implementation 'com.github.rjmngr929:Kotlin-Permission-Handle:Tag'
 	}
 ```

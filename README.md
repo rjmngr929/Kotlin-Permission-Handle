@@ -1,4 +1,4 @@
-KPermissions
+Kotlin Runtime Handle Permissions
 ===============
 
 An Android library totally written in Kotlin that helps to request runtime permissions.
@@ -63,19 +63,17 @@ Compatibility
 
 Integration
 ------
+	dependencyResolutionManagement {
+		repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+		repositories {
+			mavenCentral()
+			maven { url 'https://jitpack.io' }
+		}
+	}
 
-
-You can download a jar from GitHub's [releases page](https://github.com/rjmngr929/Kotlin-Permission-Handle/releases) or grab it from ```mavenCentral()```.
-
-### Gradle ### 
-
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.fondesa/kpermissions/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.fondesa/kpermissions) 
 
 ```gradle
 dependencies {
-    // The core artifact.
-    implementation 'com.github.rjmngr929:kotlinPermissions:x.x.x'
-    // If you want the extensions for the Kotlin coroutines.
-    implementation 'com.github.rjmngr929:kotlinpermissions-coroutines:x.x.x'
-}
+		implementation 'com.github.User:Repo:Tag'
+	}
 ```

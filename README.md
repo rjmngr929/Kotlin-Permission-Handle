@@ -7,8 +7,8 @@ This library is compatible also below Android M (API 23) where runtime permissio
 Usage
 ------
 
-To discover all the APIs of this library, check the [wiki](https://github.com/fondesa/kpermissions/wiki). It contains some useful notes and advanced features not explained in the ```README```.
-For further samples, check the [sample](https://github.com/fondesa/kpermissions/tree/master/sample) provided by this library. It shows how to integrate this library and request the permissions from an Activity or a Fragment.
+
+For further samples, check the [sample](https://github.com/rjmngr929/Kotlin-Permission-Handle/tree/master/app) provided by this library. It shows how to integrate this library and request the permissions from an Activity or a Fragment.
 
 ### Basic usage
 You can create a ```PermissionRequest``` either from an ```Activity``` or a ```Fragment``` using the extension method ```permissionsBuilder()```:
@@ -24,7 +24,7 @@ permissionsBuilder(Manifest.permission.CAMERA, Manifest.permission.SEND_SMS).bui
 ```
 
 #### Coroutines
-The artifact `kpermissions-coroutines` adds the integration with the Kotlin coroutines:
+The artifact `kotlinpermissions-coroutines` adds the integration with the Kotlin coroutines:
 ```kotlin
 launch {
     val result = permissionsBuilder(Manifest.permission.CAMERA).build().sendSuspend()
@@ -43,15 +43,6 @@ launch {
 request.send()
 ```
 
-#### RxJava
-The artifacts `kpermissions-rx2` and `kpermissions-rx3` adds the integration with RxJava 2 and RxJava 3 respectively:
-```kotlin
-val request = permissionsBuilder(Manifest.permission.CAMERA).build()
-request.observe().subscribe { result ->
-    // Handle the result.
-}
-request.send()
-```
 
 #### LiveData
 In the core artifact, there's a useful extension on `PermissionRequest` to get a `LiveData`:
@@ -66,7 +57,7 @@ request.send()
 Compatibility
 ------
 
-**Android SDK**: KPermissions requires a minimum API level of **14** (the same of the latest support libraries).
+**Android SDK**: Kotlin-Permission-Handle requires a minimum API level of **21** (the same of the latest support libraries).
 
 **AndroidX**: this library requires AndroidX. To use it in a project without AndroidX, refer to the version **1.x**
 

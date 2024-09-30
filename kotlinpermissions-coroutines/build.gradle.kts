@@ -51,7 +51,7 @@ publishing{
         register<MavenPublication>("release"){
             groupId = "com.github.rjmngr929"
             artifactId = "KotlinPermission" //"Kotlin-Permission-Handle"
-            version = "1.0.1"
+            version = "1.0.0"
 
             afterEvaluate {
                 from(components["release"])

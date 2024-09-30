@@ -76,6 +76,6 @@ dependencyResolutionManagement {
 
 ```gradle
 dependencies {
-	        implementation 'com.github.rjmngr929:Kotlin-Permission-Handle:Tag'
+	        implementation 'com.github.rjmngr929:Kotlin-Permission-Handle:1.0.0'
 	}
 ```

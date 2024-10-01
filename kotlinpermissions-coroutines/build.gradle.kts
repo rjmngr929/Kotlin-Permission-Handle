@@ -49,7 +49,7 @@ dependencies {
 publishing{
     publications{
         register<MavenPublication>("release"){
-            groupId = "com.github.webtest-1230"
+            groupId = "com.github.com.github.rjmngr929" //webtest-1230
             artifactId = "KotlinPermission" //"Kotlin-Permission-Handle"
             version = "1.0.1"
 

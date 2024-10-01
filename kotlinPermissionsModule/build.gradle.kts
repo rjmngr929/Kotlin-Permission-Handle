@@ -39,9 +39,9 @@ android {
 publishing{
     publications{
         register<MavenPublication>("release"){
-            groupId = "com.github.rjmngr929"
+            groupId = "com.github.webtest-1230"
             artifactId = "KotlinPermission" //"Kotlin-Permission-Handle"
-            version = "1.0.0"
+            version = "1.0.1"
 
             afterEvaluate {
                 from(components["release"])

@@ -21,5 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "KotlinPermission"
 include(":app")
-include(":kotlinPermissions")
+include(":kotlinPermissionsModule")
 include(":kotlinpermissions-coroutines")
